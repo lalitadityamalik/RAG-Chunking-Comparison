@@ -1,35 +1,6 @@
-# Python
-__pycache__/
-*.py[cod]
-*.so
 .venv/
-venv/
-env/
-
-# Environment variables and secrets
-.env
-.env.*
-!.env.example
-
-# Jupyter
-.ipynb_checkpoints/
-
-# macOS
+.idea/
+__pycache__/
 .DS_Store
-
-# Python tooling
-.pytest_cache/
-.mypy_cache/
-.ruff_cache/
-
-# Generated data and results
-results/*
-!results/.gitkeep
-
-# Local datasets and research papers
 data/papers/
 data/extracted_text.json
-
-# Logs
-*.log
-
